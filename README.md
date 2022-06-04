@@ -26,4 +26,5 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 
 
-![image-20220604170310240](C:\Users\Think\AppData\Roaming\Typora\typora-user-images\image-20220604170310240.png)
+![image](https://user-images.githubusercontent.com/66717012/171993575-c6d88af8-fc1e-4a38-96d6-c2f421b7a476.png)
+
