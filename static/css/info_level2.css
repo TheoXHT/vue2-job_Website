@@ -1,0 +1,410 @@
+input:focus {
+    outline: none;
+}
+
+body {
+    background: rgb(245, 245, 245)
+}
+
+/* 清楚浮动 */
+.clearfix_ {
+    clear: both;
+}
+
+
+.slip {
+    color: #707070;
+    font-size: 12px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.slip a {
+    color: #404040;
+}
+
+.clearfix {
+    padding-top: 20px;
+    height: 10px;
+    font-size: 12px;
+}
+
+
+/* 主要内容 */
+.main {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.main .left_content {
+    float: left;
+    width: 700px;
+    /* background-color: lightblue; */
+}
+
+
+.main .right_content {
+    float: right;
+    width: 280px;
+    /* background-color: lightblue; */
+}
+
+.main .left_content .content1 {
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+
+.content_title {
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    padding: 30px 40px;
+}
+
+.content_title .title_name h2 {
+    float: left;
+    font: 400 28px/40px 'hiragino sans gb', 'microsoft yahei';
+    color: #4b4b4b;
+    padding-right: 100px;
+    width: 550px;
+    word-break: break-all;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+}
+
+.salary {
+    margin-top: 15px;
+    line-height: 24px;
+    height: 24px;
+    color: #666;
+    font-size: 14px;
+}
+
+.salary .salary_left {
+    float: left;
+    font-weight: 700;
+}
+
+.salary b {
+    color: #5b8fff;
+    font-size: 20px;
+    line-height: 25px;
+    vertical-align: bottom;
+}
+
+
+.salary .salary_tips {
+    float: left;
+    margin-left: 30px;
+}
+
+
+
+.salary .salary_tips span {
+    float: left;
+    color: #707070;
+    font-size: 14px;
+}
+
+.salary .salary_tips .divide {
+    float: left;
+    margin: 7px 10px 0;
+    background-color: #979797;
+    /* 分割样式 */
+    width: 1px;
+    height: 10px;
+    background-color: #ddd;
+    font-size: 0;
+}
+
+
+.content2_3 {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 50px 40px;
+}
+
+
+.m_title {
+    position: relative;
+    line-height: 20px;
+    height: 20px;
+    padding-bottom: 33px;
+}
+
+
+.content2_3 .m_title h3 {
+    float: left;
+    font: 400 20px/1em 'hiragino sans gb', 'microsoft yahei';
+    color: #4b4b4b;
+    height: 1em;
+}
+
+
+
+.content2_3 .m_title .bottom_divide {
+    position: absolute;
+    width: 35px;
+    height: 3px;
+    background-color: #5b8fff;
+    bottom: 0;
+    left: 0;
+}
+
+.content2_3 .info {
+    margin-top: 20px;
+}
+
+.content2_3 .info .info_tips {
+    height: 40px;
+}
+
+
+.content2_3 .info .info_tips li {
+    float: left;
+    margin: 10px 17px 26px 0;
+    line-height: 22px;
+    padding: 4px 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #434244;
+    background-color: #fafafa;
+}
+
+.content2_3 .info .details {
+    font-size: 16px;
+    color: #707070;
+    line-height: 28px;
+}
+
+
+.content2_3 .info .details p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #707070;
+}
+
+.content2_3 {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 50px 40px;
+}
+
+.content2_3 .info .work_location {
+    position: relative;
+    background-color: #fafafa;
+    padding: 10px 20px 15px;
+    padding-right: 80px;
+}
+
+.content2_3 .info .work_location .area {
+    font-size: 16px;
+    color: #707070;
+    margin-top: 4px;
+}
+
+
+
+/* 其他链接 */
+
+.otherlinks {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+
+.otherlinks .m_title {
+    position: relative;
+    line-height: 20px;
+    height: 20px;
+    padding-bottom: 33px;
+}
+
+
+.otherlinks .m_title h3 {
+    float: left;
+    font: 400 20px/1em 'hiragino sans gb', 'microsoft yahei';
+    color: #4b4b4b;
+    height: 1em;
+}
+
+.otherlinks .m_title .more_links {
+    float: right;
+    font-size: 14px;
+    line-height: 24px;
+    color: #535353;
+}
+
+.otherlinks .otherlists {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+/* .otherlinks .lastonenomargin{
+    margin-bottom: -20px;
+    overflow: hidden;
+} */
+
+
+
+.otherlinks .otherlists .list_item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: dashed 1px #ddd;
+}
+
+.otherlinks .otherlists .list_item .list_title {
+    float: left;
+    width: 390px;
+}
+
+
+/* 跟兼职全职一样的信息框 */
+.title_box {
+    height: 32px;
+}
+
+.title_box h3 {
+    font: 400 17px/2em "hiragino sans gb", "microsoft yahei";
+    float: left;
+}
+
+.title_box h3 a:hover {
+    color: #5b8fff;
+    text-decoration: underline;
+}
+
+
+.title_box h3 a {
+    color: #404040;
+    text-decoration: none;
+}
+
+.title_box h5 {
+    float: left;
+    margin: 7px 0 0 15px;
+    border: 1px solid #5b8fff;
+    color: #5b8fff;
+    font-size: 12px;
+}
+
+
+.list_field {
+    margin-top: 8px;
+    width: 420px;
+}
+
+.list_field li {
+    float: left;
+    line-height: 20px;
+    width: 200px;
+    padding-right: 10px;
+    height: 20px;
+    overflow: hidden;
+    /* text-overflow */
+    text-overflow: ellipsis;
+    /* white-space */
+    white-space: nowrap;
+    color: #707070;
+    font-size: 12px;
+}
+
+
+.list_field li span {
+    color: #999;
+}
+
+
+.list_salary {
+    float: right;
+    margin: 20px 50px 0 0;
+    line-height: 40px;
+    color: #999;
+}
+
+
+.list_salary {
+    float: right;
+    margin: 20px 0px 0 0;
+    line-height: 40px;
+    color: #999;
+}
+
+.list_salary .money em {
+    color: #5b8fff;
+    font-size: 16px;
+    margin-right: 5px;
+    vertical-align: bottom;
+    font-weight: 700;
+}
+
+
+.list_salary .money {
+    margin-right: 14px;
+}
+
+
+
+.right_content {
+    float: right;
+    width: 280px;
+}
+
+
+.right_content .cpy_info {
+    background-color: #fff;
+    padding: 30px 20px 0;
+}
+
+
+.right_content .cpy_info .info_pic {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.right_content .cpy_info .info_pic a {
+    color: #69e;
+    text-decoration: none;
+}
+
+.right_content .cpy_info .info_pic a img {
+    vertical-align: top;
+    width: 240px;
+    height: 100px;
+}
+
+
+.right_content .cpy_info .cpy_name {
+    text-align: center;
+    font: 700 18px/24px 'hiragino sans gb', 'microsoft yahei';
+    color: #4b4b4b;
+    margin-bottom: 30px;
+}
+
+.right_content .cpy_info .cpy_name a {
+    color: #69e;
+    text-decoration: none;
+}
+
+.right_content .cpy_info .cpy_name a:hover {
+    color: #5b8fff;
+    text-decoration: underline;
+}
+
+
+.right_content .cpy_info .cpy_link {
+    margin-top: 30px;
+    padding: 20px 0;
+    border-top: 1px dashed #ddd;
+    text-align: center;
+}
+
+.right_content .cpy_info .cpy_link a {
+    font-size: 14px;
+    color: #4b4b4b;
+    text-decoration: none;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+}

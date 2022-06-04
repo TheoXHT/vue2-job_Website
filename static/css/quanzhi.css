@@ -1,0 +1,309 @@
+input:focus {
+    outline: none;
+}
+
+body {
+    background: rgb(245, 245, 245)
+}
+
+/* 清楚浮动 */
+.clearfix_ {
+    clear: both;
+}
+
+
+
+/* 筛选导航 */
+
+
+.slip {
+    color: #707070;
+    font-size: 12px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.slip a {
+    color: #404040;
+}
+
+
+.clearfix {
+    padding-top: 20px;
+    height: 85px;
+    font-size: 12px;
+}
+
+
+.filter {
+    background-color: #fff;
+    margin-top: 10px;
+    /* 指定一个宽度 */
+    height: 185px;
+}
+
+.filter_content {
+    padding: 2px 20px;
+    width: 1200px;
+}
+
+
+.filter .filter_content dl dt {
+    float: left;
+    color: #404040;
+    font-weight: 700;
+    line-height: 18px;
+    padding: 2px 2px;
+    width: 60px
+}
+
+
+.filter .filter_content dl dd ul li {
+    float: left;
+    padding: 2px 30px 20px 0px;
+}
+
+.filter .filter_content dl dd ul li a {
+    float: left;
+    line-height: 18px;
+    color: #404040;
+}
+
+.filter .filter_content dl dd ul li a:hover {
+    color: #5b8fff;
+    background-color: rgba(91, 143, 255, 0.3);
+}
+
+.ul_clearfix {
+    float: left;
+    width: 900px;
+}
+
+.filterbar {
+    background-color: #fff;
+    height: 54px;
+    margin-top: 10px;
+}
+
+.filterbar .checkfilter {
+    float: left;
+    margin: 17px 0 0 0;
+    line-height: 20px;
+    padding-left: 20px;
+}
+
+.filterbar .checkfilter .ck_left {
+    /* position下拉框 */
+    position: relative;
+    float: left;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 10px 0 17px;
+}
+
+.filterbar .checkfilter label {
+    float: left;
+    line-height: 20px;
+    display: block;
+    margin-left: 25px;
+    padding-right: 20px;
+    color: #707070;
+    font-size: 12px;
+}
+
+.filterbar .checkfilter label input {
+    float: left;
+    height: 13px;
+    width: 13px;
+    margin: 3px 10px 0 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.filterbar .checkfilter .ck_left i {
+    display: block;
+    position: absolute;
+    top: 9px;
+    right: -4px;
+    border-width: 4px 4px 0 4px;
+    /* 边框 */
+    border-color: #4b4b4b transparent transparent transparent;
+    border-style: solid dashed dashed dashed;
+}
+
+
+.filterbar .sortfilter {
+    float: right;
+    padding-right: 20px;
+    line-height: 17px;
+    margin-top: 17px;
+    /* font-size: 0; */
+}
+
+
+
+.filterbar .sortfilter a {
+    /* display: inline-block; */
+    float: right;
+    padding: 0 4px;
+    margin-left: 10px;
+    font-size: 12px;
+    border: solid 1px #fff;
+    color: #707070;
+    text-decoration: none;
+}
+
+.filterbar .sortfilter .cur,
+.filterbar .sortfilter a:hover {
+    border: 1px solid #5b8fff;
+}
+
+/* 信息列表 */
+
+.jzlists {
+    min-height: 300px;
+    margin-bottom: 50px;
+}
+
+.jzlists .jzlists_item {
+    margin-top: 10px;
+    padding: 20px;
+    height: 80px;
+    background-color: #fff;
+}
+
+.jzlists .jzlists_item .jzlists_txt {
+    float: left;
+    width: 400px;
+}
+
+.jzlists .jzlists_item .jzlists_txt .jzlists_title {
+    height: 32px;
+}
+
+.jzlists .jzlists_item .jzlists_txt .jzlists_title h3 {
+    font: 400 17px/2em "hiragino sans gb", "microsoft yahei";
+    float: left;
+}
+
+.jzlists .jzlists_item .jzlists_txt .jzlists_title h3 a:hover {
+    color: #5b8fff;
+    text-decoration: underline;
+}
+
+.jzlists_title h3 a {
+    color: #404040;
+    text-decoration: none;
+}
+
+.jzlists_title h5 {
+    float: left;
+    margin: 7px 0 0 15px;
+    border: 1px solid #5b8fff;
+    color: #5b8fff;
+    font-size: 12px;
+}
+
+.jzlists .jzlists_item .jzlist_field {
+    margin-top: 8px;
+    width: 420px;
+}
+
+.jzlist_field li {
+    float: left;
+    line-height: 20px;
+    width: 200px;
+    padding-right: 10px;
+    height: 20px;
+    overflow: hidden;
+    color: #707070;
+    font-size: 12px;
+}
+
+
+.jzlist_field li span {
+    color: #999;
+}
+
+
+.jzlists .jzlists_item .jzlists_btn {
+    float: right;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+
+.jzlists .jzlists_btn a {
+    display: block;
+    background-color: #5b8fff;
+    color: #fff;
+    font: 400 16px/40px "hiragino sans gb", "microsoft yahei";
+    text-align: center;
+    text-decoration: none;
+}
+
+.jzlists .jzlists_btn .over_btn {
+    display: block;
+    background-color: #e7e7e7;
+    color: #fff;
+    font: 400 16px/40px "hiragino sans gb", "microsoft yahei";
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.jzlists .jzlists_item .jzlists_btn .over_btn:hover {
+    background-color: #e7e7e7;
+    cursor: not-allowed;
+}
+
+
+.jzlists .jzlists_item .jzlists_btn a:hover {
+    background-color: #5c9fff;
+}
+
+
+.jzlists .jzlists_item .jzlists_salary {
+    float: right;
+    margin: 20px 50px 0 0;
+    line-height: 40px;
+    color: #999;
+}
+
+
+.jzlists .jzlists_item .jzlists_salary {
+    float: right;
+    margin: 20px 50px 0 0;
+    line-height: 40px;
+    color: #999;
+}
+
+
+.jzlists .jzlists_item .jzlists_salary .money em {
+    color: #5b8fff;
+    font-size: 16px;
+    margin-right: 5px;
+    vertical-align: bottom;
+    font-weight: 700;
+}
+
+
+.jzlists .jzlists_item .jzlists_salary .money {
+    margin-right: 14px;
+}
+
+
+
+/* 加一个箭头处理 */
+
+.item_links img {
+    float: right;
+    width: 20px;
+    height: 20px;
+    /* background-color:#3874f5; */
+    color: white;
+    margin: 20px 20px 0 0;
+}

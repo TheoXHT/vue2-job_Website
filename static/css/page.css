@@ -1,0 +1,39 @@
+.j_w {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.pageBox {
+    margin-bottom: 50px;
+    clear: both;
+    text-align: center;
+    height: 34px;
+}
+
+.pageBox li {
+    display: inline;
+    margin: 0 5px;
+    font: 400 16px / 34px "hiragino sans gb", "microsoft yahei";
+}
+
+.pageBox li a {
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    color: #707070;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.pageBox .curPage,
+.pageBox li a:hover {
+    background-color: #5c9fff;
+    color: #fff;
+}
+
+.pageBox .curPage {
+    cursor: default;
+}

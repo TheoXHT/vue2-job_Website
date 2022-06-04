@@ -1,0 +1,253 @@
+.footer {
+    height: 337px;
+    margin-top: 100px;
+    background: rgb(83, 83, 83);
+}
+
+.footer .footer_top_back {
+    background: rgb(78, 78, 78);
+}
+
+.footer .footer_top {
+    height: 125px;
+    background: rgb(78, 78, 78);
+}
+
+
+.footer .footer_top .many_links h4 {
+    float: left;
+    line-height: 62px;
+    font-size: 16px;
+    color: rgb(112, 112, 112);
+}
+
+.footer .footer_top .many_links ul {
+    float: left;
+    line-height: 62px;
+    margin-left: 20px;
+}
+
+.footer .footer_top .many_links ul li {
+    float: left;
+    padding-right: 20px;
+}
+
+.footer .footer_top .many_links ul li a {
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+}
+
+
+/* 招聘链接右边的小箭头 */
+.footer .footer_top .many_links img {
+    float: right;
+    width: 20px;
+    height: 20px;
+    background-color: #3874f5;
+    margin: 20px 20px 0 0;
+}
+
+.footer .footer_content {
+    padding-top: 25px;
+    height: 260px;
+    /* 父级设置字体 */
+    font-size: 14px;
+    color: rgb(153, 153, 153)
+}
+
+.footer .footer_content a {
+    color: rgb(204, 204, 204);
+}
+
+/* 添加logo图片 */
+.footer .footer_content>a {
+    float: left;
+    display: block;
+    height: 50px;
+    background-color: #3874f5;
+    width: 100px;
+}
+
+.footer .footer_content>ul>li {
+    position: relative;
+    float: left;
+    padding-left: 40px;
+}
+
+.footer .footer_content>ul>li::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 12px;
+    background: rgb(96, 96, 96);
+    right: -22px;
+    top: 4px;
+}
+
+.footer .footer_content>ul>li:last-child::after {
+    display: none;
+}
+
+
+.footer .footer_content>ul>li>ul>li {
+    padding-top: 10px;
+}
+
+/* .footer .footer_content ul > li{
+    float: left;
+} */
+
+.footer .ft_wxlink {
+    position: relative;
+    float: right;
+}
+
+.footer .ft_wxlink span {
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.footer .ft_wxlink img {
+    float: right;
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+
+.footer .ft_wxlink::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 50px;
+    background: rgb(96, 96, 96);
+    left: -6px;
+    top: 46px;
+}
+
+
+.footer .hotline {
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    color: rgb(163, 163, 163);
+}
+
+/* 页脚 */
+
+.footer_topbar {
+    background: #fafafa;
+    margin: 100px 0 -100px;
+    color: #999;
+    line-height: 24px;
+}
+
+.footer_topbar .w .item_1 {
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.footer_topbar .item {
+    position: relative;
+    padding: 10px 0 20px;
+    font-size: 14px;
+}
+
+
+.footer_topbar .item_1 h2 {
+    float: left;
+    font-size: 20px;
+    font-family: "hiragino sans gb", "microsoft yahei";
+    color: #707070;
+}
+
+.footer_topbar .item_1 p {
+    margin-left: 110px;
+}
+
+
+.footer_topbar .friend_link {
+    padding: 15px 0;
+}
+
+
+.item {
+    position: relative;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+
+.item .item_links h3 {
+    display: inline-block;
+    font-size: 14px;
+    color: #707070;
+    margin-right: 10px;
+}
+
+
+.item .item_links a {
+    color: #999;
+    margin-right: 10px;
+    margin-top: 10px;
+    white-space: nowrap;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.item>a {
+    position: absolute;
+    right: 12px;
+    top: 25px;
+}
+
+
+.footer .hotline span {
+    display: block;
+}
+
+.footer .hotline .title {
+    margin: 8px 0;
+}
+
+.footer .hotline .first {
+    margin-top: 0;
+}
+
+
+.footer .hotline .phone {
+    margin-bottom: 12px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.footer .hotline .email {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.footer .hotline::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 50px;
+    background: rgb(96, 96, 96);
+    left: -23px;
+    top: 46px;
+}
+
+
+
+.copyright {
+    height: 52px;
+    line-height: 52px;
+    background: #4e4e4e;
+    text-align: center;
+    color: #7d7d7d;
+    font-size: 14px;
+}
+
+.copyright a {
+    color: #7d7d7d;
+}

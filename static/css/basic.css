@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+em {
+    font-style: normal;
+}
+
+.w {
+    width: 1232px;
+    margin: 0 auto;
+}
+
+input:focus {
+    outline: none;
+}

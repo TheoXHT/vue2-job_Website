@@ -1,0 +1,296 @@
+input:focus {
+    outline: none;
+}
+
+body {
+    background: rgb(245, 245, 245)
+}
+
+/* 公司信息 */
+
+.main {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+.main .detail_top {
+    padding: 40px;
+    background-color: #fff;
+}
+
+.main .detail_top .cpy_img {
+    float: left;
+    margin-right: 30px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.main .detail_top .cpy_img img {
+    display: block;
+    width: 100%;
+}
+
+.cpy_info {
+    overflow: hidden;
+}
+
+.cpy_info .cpy_title {
+    font: 700 18px/38px "hiragino sans gb", "microsoft yahei";
+    color: #4b4b4b;
+}
+
+.cpy_desc {
+    margin-top: 20px;
+}
+
+.cpy_desc li {
+    float: left;
+    margin-right: 30px;
+}
+
+.cpy_desc li b {
+    display: block;
+    margin-bottom: 3px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4b4b4b;
+}
+
+.cpy_desc li span {
+    font-size: 12px;
+    line-height: 14px;
+    color: #999;
+}
+
+.main .cpy_nav {
+    padding: 0 40px 0;
+    background-color: #fff;
+}
+
+.main .cpy_nav .nav_list {
+    position: relative;
+    background-color: #fff;
+    display: block;
+    height: 48px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.nav_list {
+    background-color: #fff;
+}
+
+
+.nav_list .nav_item {
+    position: relative;
+    float: left;
+    margin-right: 80px;
+    min-width: 100px;
+}
+
+
+/* .nav_list .nav_item span::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -50px;
+    width: 100px;
+    height: 4px;
+    background-color: #5b8fff
+} */
+
+
+.nav_list .nav_item .last::after {
+    background-color: white;
+}
+
+
+.nav_list .nav_item a {
+
+    display: block;
+    padding-bottom: 24px;
+    text-align: center;
+    color: #4b4b4b;
+    text-decoration: none;
+    font: 500 18px/25px "hiragino sans gb", "microsoft yahei";
+}
+
+
+.detail_main .left_part {
+    float: left;
+    width: 700px;
+}
+
+.detail_main .left_part .d_title {
+    position: relative;
+    line-height: 20px;
+    height: 20px;
+    padding-bottom: 33px;
+}
+
+.content {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 50px 40px;
+}
+
+.d_title h3 {
+    float: left;
+    /* 字体 */
+    font: 400 20px/1em 'hiragino sans gb', 'microsoft yahei';
+    color: #4b4b4b;
+    height: 1em;
+}
+
+.d_title .h_bottom {
+    position: absolute;
+    width: 35px;
+    height: 3px;
+    background-color: #5b8fff;
+    bottom: 0;
+    left: 0;
+}
+
+.bottom_info {
+    margin-top: 20px;
+}
+
+.information {
+    padding: 20px 0;
+    background-color: #fff;
+    text-align: center;
+    font-size: 18px;
+    color: #999999;
+    letter-spacing: -0.48px;
+    line-height: 20px;
+}
+
+
+
+.right_part {
+    float: right;
+    width: 280px;
+}
+
+
+.right_part .right_content {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px 20px 0;
+}
+
+.right_part .right_content .title {
+    padding-bottom: 0;
+    line-height: 24px;
+    height: 24px;
+}
+
+.right_part .right_content .title i {
+    float: left;
+    margin-top: 4px;
+    width: 6px;
+    height: 14px;
+    background-color: #5b8fff;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+.right_part .right_content .title h3 {
+    float: left;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'hiragino sans gb', 'simsun';
+}
+
+.right_part .right_content .title a {
+    float: right;
+    font-size: 14px;
+    line-height: 18px;
+    color: #535353;
+}
+
+.right_part .right_content .title a:hover {
+    text-decoration: underline;
+}
+
+
+.newjob dl {
+    padding: 20px 0 15px;
+    border-top: dashed 1px #ddd;
+    margin-top: -1px;
+    height: 60px;
+}
+
+
+.newjob dl dd {
+    float: left;
+    width: 100%;
+    display: inline;
+}
+
+
+.newjob .p1 {
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-top: -2px;
+    width: 100%;
+    height: 1.5em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.newjob .p1 a {
+    color: #4b4b4b;
+}
+
+
+.newjob .p1 a:hover {
+    text-decoration: underline;
+}
+
+.newjob .p2 {
+    height: 20px;
+    margin-top: 4px;
+}
+
+
+.newjob .p2 .addr {
+    float: left;
+    color: #707070;
+    line-height: 20px;
+    max-width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.newjob .p2 .pway {
+    float: right;
+    color: #707070;
+    display: block;
+    line-height: 20px;
+}
+
+.newjob .p3 {
+    line-height: 20px;
+    color: #707070;
+}
+
+.newjob .p3 .salary {
+    display: block;
+    color: #707070;
+    line-height: 20px;
+}
+
+.newjob .p3 .salary em {
+    color: #5b8fff;
+    font-size: 14px;
+    vertical-align: bottom;
+}

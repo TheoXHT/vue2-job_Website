@@ -1,0 +1,251 @@
+.register_top {
+    height: 60px;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e6ed;
+    border-radius: 6px 6px 0 0;
+}
+
+.register_top h2 {
+    width: 100%;
+    color: #1f2d3d;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 15px 0;
+    text-align: center;
+    height: 34px;
+}
+
+
+.register_content {
+    width: 100%;
+    height: 380px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 0 0 6px 6px;
+    /* box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, .3); */
+}
+
+
+.register_content .register_body {
+    width: 340px;
+    margin: 0 auto;
+    padding: 24px 0 20px;
+}
+
+.register_content .register_body .register_header {
+    margin-top: 0;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+.register_content .register_body .register_header span {
+    float: left;
+    text-align: center;
+    line-height: 22px;
+    padding: 14px 0;
+    width: 50%;
+    font-size: 16px;
+    color: #999;
+    line-height: 40px;
+    /* border-bottom: 2px solid #5b8fff; */
+}
+
+.register_content .register_body .register_header .active {
+    color: #5b8fff;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.pwd_input::before,
+.reg_input::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 43px;
+    height: 42px;
+    background-color: #b0d7ff;
+    border-radius: 1px 0 0 1px;
+}
+
+.pwd_input,
+.reg_input {
+    position: relative;
+    height: 42px;
+    background-color: #fff;
+    border: 1px solid #e0e6ed;
+    border-radius: 2px;
+    line-height: 42px;
+    padding-left: 43px;
+}
+
+.pwd_input {
+    margin-top: 18px;
+}
+
+
+.reg_input .name_ico {
+    position: absolute;
+    background-image: url('../images/name_ico.jpg') no-repeat;
+}
+
+.pwd_input .input_phone,
+.reg_input .input_phone {
+    float: left;
+    width: 263px;
+    height: 22px;
+    color: #1f2d3d;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 10px 16px;
+    border: none 0;
+    outline: none;
+}
+
+
+
+.code {
+    margin-bottom: 80px;
+}
+
+.code .cd_input {
+    float: left;
+    margin-top: 18px;
+    width: 140px;
+    height: 22px;
+    border: 1px solid #e0e6ed;
+    border-radius: 2px;
+    color: #1f2d3d;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 10px 14px;
+}
+
+.code .cd_input:focus {
+    outline: none;
+}
+
+.code .code_btn {
+    float: right;
+    margin-top: 18px;
+    box-sizing: content-box;
+    width: 152px;
+    line-height: 22px;
+    padding: 10px 0;
+    background-color: #fff;
+    border: 1px solid #69e;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #69e;
+}
+
+
+.forget_code,
+.change_code {
+    margin-top: 10px;
+    font-size: 14px;
+    clear: both;
+    line-height: 22px;
+    overflow: hidden;
+}
+
+.forget_code a,
+.change_code a {
+    float: right;
+    color: #69e;
+    text-decoration: none;
+}
+
+.forget_code a:hover,
+.change_code a:hover {
+    text-decoration: underline;
+}
+
+.register_btn {
+    margin: 24px 0 20px 0;
+}
+
+.register_btn .btn_css {
+    display: block;
+    width: 240px;
+    height: 48px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 48px;
+    margin: 0 auto;
+    background-color: #69e;
+    border: 0 none;
+    color: #fff;
+}
+
+
+.register_btn .btn_css:hover {
+    background-color: #5b8fff;
+}
+
+.reg_box {
+    margin-bottom: 16px;
+    color: #a3b3c7;
+    font-size: 14px;
+    margin-top: 0;
+    text-align: center;
+    clear: both;
+    line-height: 22px;
+    overflow: hidden;
+}
+
+.reg_box a {
+    color: #69e;
+    text-decoration: none;
+}
+
+.reg_box a:hover {
+    text-decoration: underline;
+}
+
+
+.agreement {
+    color: #a3b3c7;
+    font-size: 14px;
+    margin-top: 12px;
+    clear: both;
+    line-height: 22px;
+}
+
+.agreement input {
+    position: relative;
+    top: 1px;
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+    margin-right: 8px;
+}
+
+
+.agreement a {
+    color: #69e;
+    text-decoration: none;
+    padding: 0 2px;
+}
+
+.agreement a:hover {
+    text-decoration: underline;
+}
+
+
+.register_top span {
+    color: #1f2d3d;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    line-height: 50px;
+    top: 9px;
+    right: 11px;
+}
+
+.register_top span img {
+    width: 100%;
+}
